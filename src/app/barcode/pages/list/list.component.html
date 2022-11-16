@@ -1,0 +1,9 @@
+
+<div class="w-full grid grid-cols-5 page" id="pageToPrint">
+  <div class="barcode-wrapper flex flex-col align-center justify-center h-18 pt-2 pb-2" *ngFor="let barcode of barcodes">
+    <p class="text-center" style="font-size: 0.5rem"> {{ barcode.text }}</p>
+    <ngx-barcode [bc-value]="barcode.code" [bc-display-value]="true"></ngx-barcode>
+  </div>
+</div>
+
+
