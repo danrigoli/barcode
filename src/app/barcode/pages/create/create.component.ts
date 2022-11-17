@@ -28,7 +28,7 @@ export class CreateComponent implements OnInit {
   onSubmit(): void {
     console.log(this.form.value);
     // redirect to list view with form as query params
-    this.router.navigate(['/barcode/list'], { queryParams: this.form.value });
+    this.router.navigate(['/list'], { queryParams: this.form.value });
   }
 
 }
