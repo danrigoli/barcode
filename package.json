@@ -5,10 +5,10 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build:prod": "ng build -c production",
+    "build:production": "ng build --output-path docs --base-href /barcode/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "ng deploy"
+    "deploy": "ng deploy --output-path docs --base-href /barcode/"
   },
   "private": true,
   "dependencies": {
