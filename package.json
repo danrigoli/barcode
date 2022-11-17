@@ -5,10 +5,10 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build:production": "ng build --output-path docs --base-href /barcode/",
+    "build:production": "ng build --output-path docs --base-href https://danrigoli.github.io/barcode/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "ng deploy --output-path docs --base-href /barcode/"
+    "deploy": "ng deploy --base-href https://danrigoli.github.io/barcode/"
   },
   "private": true,
   "dependencies": {
