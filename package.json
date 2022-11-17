@@ -8,7 +8,7 @@
     "build:production": "ng build -c production --base-href /barcode/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "ng deploy --base-href https://danrigoli.github.io/barcode/"
+    "deploy": "ng deploy --no-silent --base-href https://danrigoli.github.io/barcode/"
   },
   "private": true,
   "dependencies": {
